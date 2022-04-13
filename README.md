@@ -1,1 +1,1 @@
-# SF
+# lolminer_nicehash
