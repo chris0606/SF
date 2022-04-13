@@ -4,7 +4,7 @@ sudo apt-get install screen -y
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.47/lolMiner_v1.47_Lin64.tar.gz
 tar xf lolMiner_v1.47_Lin64.tar.gz
 cd 1.47
-while [1]; do
+while [ 1 ]; do
 ./lolMiner --algo ETHASH --pool daggerhashimoto.eu-west.nicehash.com:3353 --user 3HRkJkeHCJznqvXvRgryzWJEYzqa4YPdM6.R1
 sleep 3
 done
